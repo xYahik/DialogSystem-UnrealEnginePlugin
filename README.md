@@ -40,8 +40,9 @@ Example with more complicated dialog graph
 
 ---
 
-## 🚧 Coming Soon
+## 🎥 Preview Video v0.1
 
-🎥 Soon will also add video to demonstrate plugin
+Video demonstrating the basic capabilities of the plugin
 
+[![DialogSystemVideo](https://img.youtube.com/vi/uyuPNfogjrc/0.jpg)](https://youtu.be/uyuPNfogjrc)
 ---
