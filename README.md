@@ -11,7 +11,7 @@ This plugin includes additional DialogGraph with several custom Blueprint nodes:
 
 - **Start Dialog**, **End Dialog**, and **Dialog Node** with dynamically generated output pins.
 - `Dialog Node` supports parameterized `FText` in the title, description, and answer fields.
-- **Action Node** can perform in-dialogue actions with two behavior modes:
+- **Action Node [Update](#actionnode-update)** can perform in-dialogue actions with two behavior modes:
   - Wait for action completion
   - Automatically continue to the next step
 
@@ -46,3 +46,11 @@ Video demonstrating the basic capabilities of the plugin
 
 [![DialogSystemVideo](https://img.youtube.com/vi/uyuPNfogjrc/0.jpg)](https://youtu.be/uyuPNfogjrc)
 ---
+
+## ActionNode Update
+ActionNode has been updated. Now it's possible to use functions created inside Dialog blueprints. Function just needs to have checked new bool HDialAction Function to appear inside ActionNode.
+
+So from now there are provided 2 options to execute action during dialog
+- Inside Dialog blueprint with created function
+- From extern BlueprintAction of class HDialAction
+![ActionNodeUpdate2](https://i.imgur.com/WOG7rIT.gif)
